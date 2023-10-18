@@ -7,7 +7,6 @@ import imaso from "../Imagenes/imaso.png";
 import { BiTime } from 'react-icons/bi';
 import redbutton from "../Imagenes/redbutton.png";
 
-
 function InicioL(){
   return(
          <div className="card">
