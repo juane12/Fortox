@@ -15,6 +15,7 @@ function InicioL(){
             </div>
           <Link to="/Boton" className="button mx-auto pt-3"><div className="circle"></div></Link>
            
+           
     <div className="row pt-3">
      <div className="container" style={{ backgroundColor: "#EEF7F7"}}>
        <div className="p-3">
