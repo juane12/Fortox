@@ -7,6 +7,7 @@ import imaso from "../Imagenes/imaso.png";
 import { BiTime } from 'react-icons/bi';
 import redbutton from "../Imagenes/redbutton.png";
 
+
 function InicioL(){
   return(
          <div className="card">
@@ -14,8 +15,9 @@ function InicioL(){
               <small >Bachiller | Media tecnica TIC</small>
             </div>
           <Link to="/Boton" className="button mx-auto pt-3"><div className="circle"></div></Link>
+
            
-           
+             
     <div className="row pt-3">
      <div className="container" style={{ backgroundColor: "#EEF7F7"}}>
        <div className="p-3">
