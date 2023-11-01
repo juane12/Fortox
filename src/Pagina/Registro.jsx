@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "../Componentes/Menu";
-import Singin from "../Componentes/singin";
+import FormularioRegistro from "../Componentes/FormularioRegistro";
 import { AiOutlineCopyrightCircle } from "react-icons/ai"
 
 function Registro(){

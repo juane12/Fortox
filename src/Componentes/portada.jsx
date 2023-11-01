@@ -16,7 +16,7 @@ function Portada() {
     </div>
   </Link>
       
-    <Link to="/Registro">
+    <Link to="/FormularioRegistro">
       <div className="d-grid gap-2 mx-auto pb-1">
        <button className="btn btn-primary" type="button">Registro</button>
       </div>

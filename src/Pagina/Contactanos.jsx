@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import MenuL from "../Componentes/MenuL";
+import image from "../Imagenes/image.png";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
+import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Contactanos() {
   return (
     <div className="container">
+      
       <MenuL/>
 
       <div className="mb-3 pt-5">
@@ -40,7 +44,12 @@ function Contactanos() {
           type="file"
         />
       </div>
-
+      <div className="text-center pt-5 mx-auto" >
+      </div>
+      <div className="d-grid gap-2 d-md-flex justify-content-md-end">
+        <Link to="/Cuk" class="btn btn-primary">Enviar</Link>
+        <Link to="/HomeL" class="btn btn-primary">Volver</Link>
+      </div>      
       <div className="text-center pt-5 mx-auto" id="copyright">
         <hr />
         <p>

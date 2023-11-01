@@ -22,7 +22,7 @@ function Menu() {
                 <Link className="nav-link active" to="/Login">Iniciar sesión</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/Registro">Registro</Link>
+                <Link className="nav-link active" to="/FormularioRegistro">Registro</Link>
               </li>
               
             </ul>

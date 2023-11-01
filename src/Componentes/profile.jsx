@@ -15,8 +15,8 @@ function Profile() {
             <div className="card mb-4">
               <div className="card-body text-center">
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar" className="rounded-circle img-fluid" style={{width:'150px'}}/>
-                <h5 className="my-3">Don sexo</h5>
-                <p className="text-muted mb-1">Experto en una amplia gama de areas</p>
+                <h5 className="my-3">Juan Carlos</h5>
+                <p className="text-muted mb-1">Me llamo Juan Carlos y sufro del corazón</p>
                 <p className="text-muted mb-4">Cucuta, Colombia</p>
                 <div className="d-flex justify-content-center mb-3">
                   <button type="button" className="btn btn-primary">Editar Perfil</button>
@@ -29,12 +29,12 @@ function Profile() {
                   
                   <li className="list-group-item d-flex justify-content-between align-items-center p-3">
                     <RiGlobalFill/>
-                    <p className="mb-0">@donseggso1234</p>
+                    <p className="mb-0">@JuanitoCarlos</p>
                   </li>
                   
                   <li className="list-group-item d-flex justify-content-between align-items-center p-3">
                     <BsGithub/>
-                    <p className="mb-0">@sexoman69</p>
+                    <p className="mb-0">@Carlos</p>
                   </li>
                   
                   <li className="list-group-item d-flex justify-content-between align-items-center p-3">
@@ -66,7 +66,7 @@ function Profile() {
                     <p className="mb-0">Nombre completo</p>
                   </div>
                   <div className="col-sm-9">
-                    <p className="text-muted mb-o">Don Sexo</p>
+                    <p className="text-muted mb-o">Juan Ca(rlos Bustamante Gonzales</p>
                   </div>
                 </div>
                 <hr/>

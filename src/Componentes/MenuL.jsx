@@ -21,10 +21,7 @@ function MenuL() {
                 <Link className="nav-link active" to="/Perfil">Perfil</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/Cursos">Mis Noticias</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link active" to="/Miscursos">Manda noticias</Link>
+                <Link className="nav-link active" to="/Cursos">Noticias</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link active" to="/Contactanos">Contactanos</Link>
