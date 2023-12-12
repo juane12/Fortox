@@ -7,10 +7,10 @@ function Registro(){
   return(
    <div className="Registro">
     <Menu/>
-    <Singin/>
-          <div className="text-center pt-5 mx-auto" id="copyright">
-      <hr/>
-        <p><small><AiOutlineCopyrightCircle/>Help Family Derechos reservados</small></p>
+    <FormularioRegistro/>
+    <div className="text-center pt-5 mx-auto" id="copyright">
+      <AiOutlineCopyrightCircle className="text-center pt-5 mx-auto" id="copyright"/><hr/>
+        <p><small><AiOutlineCopyrightCircle/>Fortox Derechos reservados</small></p>
       </div>
     </div>
    );

@@ -54,7 +54,7 @@ function Contactanos() {
         <hr />
         <p>
           <small>
-            <AiOutlineCopyrightCircle /> Help Family Derechos reservados
+            <AiOutlineCopyrightCircle />Fortox Derechos reservados
           </small>
         </p>
       </div>

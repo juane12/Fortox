@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "../Componentes/Menu";
+import Menup from "../Componentes/Menup";
 import Portada from "../Componentes/portada";
 import { AiOutlineCopyrightCircle } from "react-icons/ai"
 
@@ -8,11 +8,11 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai"
 function Inicio(){
   return(
    <div className="Inicio">
-      <Menu/>
+      <Menup/>
       <Portada/>
       <div className="text-center pt-5 mx-auto" id="copyright">
       <hr/>
-        <p><small><AiOutlineCopyrightCircle/>Help Family Derechos reservados</small></p>
+        <p><small><AiOutlineCopyrightCircle/>Fortox Derechos reservados</small></p>
       </div>
     </div>
    );

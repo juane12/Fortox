@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import { Link } from 'react-router-dom';
+import fortox from "../Imagenes/fortox.png";
 
 function FormularioRegistro() {
     const [datos, setDatos] = useState([]);
@@ -8,11 +9,9 @@ function FormularioRegistro() {
         Id: '',
         Nombres: '',
         Apellidos: '',
-        Correo: '',
+        Teléfono: '',
         Contraseña: '',
-        Departamento: '',
-        Ciudad: '',
-        Ocupacion: ''
+        local: ''
     });
 
     useEffect(() => {
@@ -54,7 +53,7 @@ function FormularioRegistro() {
             <div className="row">
                 <div className="mx-auto text-center">
                     <h1>Regístrate</h1>
-                    <p></p>
+                    <img src={fortox} alt= "logo" className="mx-auto" style= {{maxWidth:"500px"}}/>
                 </div>
                 <div className="container pb-3">
                     <div className="mx-auto" style={{ maxWidth: "500px" }}>
@@ -73,9 +72,9 @@ function FormularioRegistro() {
                             </div>
                             <div className="col-md-6">
                                 <label htmlFor="inputEmail4" className="form-label">
-                                    <strong>Correo Electrónico</strong>
+                                    <strong>Teléfono</strong>
                                 </label>
-                                <input type="email" className="form-control" name="Correo" id="email" placeholder="you@example.com" onChange={handleChange} value={form.Correo}></input>
+                                <input type="email" className="form-control" name="numero" id="cellphone" onChange={handleChange} value={form.Teléfono}></input>
                             </div>
                             <div className="col-md-6">
                                 <label htmlFor="inputPassword4" className="form-label">
@@ -85,27 +84,15 @@ function FormularioRegistro() {
                             </div>
                             <div className="col-md-4">
                                 <label htmlFor="inputState" className="form-label">
-                                    <strong>Departamento</strong>
+                                    <strong>Local</strong>
                                 </label>
-                                <select id="inputState" className="form-select" defaultValue="Antioquia" name="Departamento" onChange={handleChange} value={form.Departamento}>
-                                    <option value="Antioquia">Antioquia</option>
-                                    <option value="Magdalena">Magdalena</option>
-                                    <option value="Santander">Santander</option>
-                                    <option value="Cundinamarca">Cundinamarca</option>
-                                    <option value="Magdalena">Magdalena</option>
+
+<select id="inputlocal" className="form-select" name="Local" onChange={handleChange} value={form.local}>
+
+                                    <option value="Éxito">Éxito</option>
+                                    <option value="Falabella">Falabella</option>
+                                    <option value="Smartfit">Smartfit</option>
                                 </select>
-                            </div>
-                            <div className="col-md-6">
-                                <label htmlFor="inputCity" className="form-label">
-                                    <strong>Ciudad</strong>
-                                </label>
-                                <input type="text" className="form-control" name="Ciudad" id="ciudad" onChange={handleChange} value={form.Ciudad}></input>
-                            </div>
-                            <div className="col-md-2">
-                                <label htmlFor="inputOccupation" className="form-label">
-                                    <strong>Ocupación</strong>
-                                </label>
-                                <input type="text" className="form-control" name="Ocupacion" id="ocupacion" onChange={handleChange} value={form.Ocupacion}></input>
                             </div>
                             <div className="col-12">
                                 <Link to="/homeL">

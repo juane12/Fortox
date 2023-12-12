@@ -15,9 +15,9 @@ function Profile() {
             <div className="card mb-4">
               <div className="card-body text-center">
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar" className="rounded-circle img-fluid" style={{width:'150px'}}/>
-                <h5 className="my-3">Juan Carlos</h5>
-                <p className="text-muted mb-1">Me llamo Juan Carlos y sufro del corazón</p>
-                <p className="text-muted mb-4">Cucuta, Colombia</p>
+                <h5 className="my-3"></h5>
+                <p className="text-muted mb-1"></p>
+                <p className="text-muted mb-4">Antioquia, Colombia</p>
                 <div className="d-flex justify-content-center mb-3">
                   <button type="button" className="btn btn-primary">Editar Perfil</button>
                 </div>
@@ -26,16 +26,6 @@ function Profile() {
             <div className="card mb-4 mb-lg-0">
               <div className="card-body p-0">
                 <ul className="list-group list-group-flush rounded-3">
-                  
-                  <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                    <RiGlobalFill/>
-                    <p className="mb-0">@JuanitoCarlos</p>
-                  </li>
-                  
-                  <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                    <BsGithub/>
-                    <p className="mb-0">@Carlos</p>
-                  </li>
                   
                   <li className="list-group-item d-flex justify-content-between align-items-center p-3">
                     <BsInstagram/>
@@ -60,40 +50,39 @@ function Profile() {
           <div className="col-lg-8">
             <div className="card mb-4">
               <div className="card-body">
-                
                 <div className="row">
                   <div className="col-sm-3">
                     <p className="mb-0">Nombre completo</p>
                   </div>
                   <div className="col-sm-9">
-                    <p className="text-muted mb-o">Juan Ca(rlos Bustamante Gonzales</p>
+                    <p className="text-muted mb-o"></p>
                   </div>
                 </div>
                 <hr/>
                 <div className="row">
                   <div className="col-sm-3">
-                    <p className="mb-0">Edad</p>
+                    <p className="mb-0">Teléfono</p>
                   </div>
                   <div className="col-sm-9">
-                    <p className="text-muted mb-o">39 años</p>
+                    <p className="text-muted mb-o"></p>
                   </div>
                 </div>
                 <hr/>
                 <div className="row">
                   <div className="col-sm-3">
-                    <p className="mb-0">Direcion</p>
+                    <p className="mb-0">Local</p>
                   </div>
                   <div className="col-sm-9">
-                    <p className="text-muted mb-o">calle 32b sur</p>
+                    <p className="text-muted mb-o"></p>
                   </div>
                 </div>
                 <hr/>
                 <div className="row">
                   <div className="col-sm-3">
-                    <p className="mb-0">Fecha de nacimiento</p>
+                    <p className="mb-0"></p>
                   </div>
                   <div className="col-sm-9">
-                    <p className="text-muted mb-o">1 de Enero de 1984</p>
+                    <p className="text-muted mb-o"></p>
                   </div>
                 </div>
               </div>
@@ -102,7 +91,7 @@ function Profile() {
               <div className="col-md-6">
                 <div className="card mb-4 mb-mb-0">
                   <div className="card-body">
-                    <p className="mb-4"><span className="text-primary font-italic me-1">Habilidades:</span>Proyecto PPI</p>
+                    <p className="mb-4"><span className="text-primary font-italic me-1">Empresa:</span>Fortox</p>
                     
                   </div>
                 </div>

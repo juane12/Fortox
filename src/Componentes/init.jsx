@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom";
-import image from "../Imagenes/image.png";
+import fortoxx from "../Imagenes/fortoxx.png";
 
 
 function Init() {
@@ -9,7 +9,7 @@ function Init() {
       
      <div className="row">
        
-       <img src={image} alt= "logo" className="mx-auto" style= {{maxWidth:"500px"}}/>
+       <img src={fortoxx} alt= "logo" className="mx-auto" style= {{maxWidth:"500px"}}/>
        <div className="container">
          <div className="mx-auto">
          <div class="card">
@@ -17,8 +17,8 @@ function Init() {
   <div class="card-body">
     <form action="/HomeL" method="get">
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                    <label for="exampleInputcellphone" class="form-label">Teléfono</label>
+                    <input type="cellphone" class="form-control" id="exampleInputcellphone" aria-describedby="cellphoneHelp"/>
                     <div id="emailHelp" class="form-text">No lo compartiremos con nadie mas.</div>
                   </div>
                   <div class="mb-3">

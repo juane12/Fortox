@@ -10,7 +10,7 @@ function Login(){
       <Init/>
      <div className="text-center pt-5 mx-auto" id="copyright">
       <hr/>
-        <p><small><AiOutlineCopyrightCircle/>Help Family Derechos reservados</small></p>
+        <p><small><AiOutlineCopyrightCircle/>Fortox Derechos reservados</small></p>
       </div>
     </div>          
 

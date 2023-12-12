@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
-import image from "../Imagenes/image.png";
+import fortox from "../Imagenes/fortox.png";
 
 function Cuk() {
   return (
     <div className="container pt-5">
       <div className="row">
-         <img src={image} alt= "logo" className="mx-auto" style= {{maxWidth:"400px"}}/>
+         <img src={fortox} alt= "logo" className="mx-auto" style= {{maxWidth:"400px"}}/>
        </div>
       <div className="row">
         <h1 className="mx-auto text-center">Listo</h1>
@@ -22,7 +22,7 @@ function Cuk() {
         <hr />
         <p>
           <small>
-            <AiOutlineCopyrightCircle/>Help Family  Derechos reservados
+            <AiOutlineCopyrightCircle/>Fortox Derechos reservados
           </small>
         </p>
       </div>
